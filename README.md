@@ -1,2 +1,19 @@
-# docker-py35-dc-engine
-Docker file with all the dependencies for text classification
+# Docker base image with dependencies
+
+Docker image with following dependencies
+
+1. pandas==0.23.3
+2. Flask==0.12.2
+3. scipy==1.0.0
+4. spacy==2.0.12
+5. tensorflow==1.5.1
+6. Keras==2.0.8
+7. numpy==1.14.3
+8. scikit_learn==0.20.1
+9. msgpack==0.5.6
+10. nltk==3.3
+11. flask_cors==3.0.3
+
+## Build command
+
+  docker build -t py35-dc-engine --no-cache .
